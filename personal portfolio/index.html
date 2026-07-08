@@ -1,0 +1,1407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/Logo.jpg" class="logo">
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <p>Virtual Assistant | Computer Engineer</p>
+            <h1>John <span>Lester</span> A. Boragay</h1>
+        </div>
+    </div>
+</div>
+
+<!-- About Section -->
+<section id="about">
+    <div class="container">
+        <div class="row">
+            <!-- Left Column: Profile Image -->
+            <div class="about-col-1">
+                <div class="about-image-wrapper">
+                    <img src="images/mine.png" alt="John Lester Boragay">
+                    <div class="image-overlay">
+                        <div class="overlay-content">
+                            <span class="badge">Computer Engineer</span>
+                            <span class="badge">Cum Laude</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Right Column: Content -->
+            <div class="about-col-2">
+                <div class="section-header">
+                    <span class="section-tag">About Me</span>
+                    <h1 class="sub-title">Turning <span>Technical</span> Skills into <span>Real</span> Results</h1>
+                </div>
+                
+                <div class="about-text-wrapper">
+                    <p class="about-text text-justify">
+                        I'm <strong>John Lester Boragay</strong>, a <span class="highlight">Computer Engineering graduate</span> with <span class="highlight">Cum Laude</span> honors who strategically bridges the gap between technical expertise and virtual assistance.
+                    </p>
+                    <p class="about-text text-justify">
+                        While most virtual assistants excel at administrative tasks, I bring a <span class="highlight">unique technical advantage</span> to the table. I've successfully delivered AutoCAD presentations for a real estate client in Ohio and designed comprehensive layouts for pop stall events including Novelino — real-world solutions that drive business results.
+                    </p>
+                    <p class="about-text highlight-text text-justify">
+                        My engineering foundation isn't just about credentials — it's a <span class="highlight">problem-solving mindset</span> that transforms instructions into strategic execution. I don't just complete tasks; I analyze challenges, optimize processes, and deliver work that clients can immediately implement in their operations.
+                    </p>
+                </div>
+                
+                <!-- Tabs -->
+                <div class="tab-wrapper">
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skills')">
+                            <i class="fas fa-cog"></i> Skills
+                        </p>
+                        <p class="tab-links" onclick="opentab('experience')">
+                            <i class="fas fa-briefcase"></i> Experience
+                        </p>
+                        <p class="tab-links" onclick="opentab('education')">
+                            <i class="fas fa-graduation-cap"></i> Education
+                        </p>
+                    </div>
+                    
+                    <!-- Skills Tab -->
+                    <div class="tab-contents active-tab" id="skills">
+                        <div class="skills-grid">
+                            <!-- General VA -->
+                            <div class="skill-card">
+                                <div class="skill-header">
+                                    <i class="fas fa-user-tie"></i>
+                                    <h3>General Virtual Assistant</h3>
+                                </div>
+                                <ul class="skills-list">
+                                    <li><i class="fas fa-check-circle"></i> B2B Lead Generation</li>
+                                    <li><i class="fas fa-check-circle"></i> LinkedIn Prospecting</li>
+                                    <li><i class="fas fa-check-circle"></i> Appointment Setting</li>
+                                    <li><i class="fas fa-check-circle"></i> Candidate Sourcing & Screening</li>
+                                    <li><i class="fas fa-check-circle"></i> Email Management</li>
+                                    <li><i class="fas fa-check-circle"></i> Calendar Management</li>
+                                    <li><i class="fas fa-check-circle"></i> Data Entry & Research</li>
+                                    <li><i class="fas fa-check-circle"></i> Admin Support</li>
+                                </ul>
+                            </div>
+                            
+                            <!-- Technical VA -->
+                            <div class="skill-card">
+                                <div class="skill-header">
+                                    <i class="fas fa-microchip"></i>
+                                    <h3>Technical Virtual Assistant</h3>
+                                </div>
+                                <ul class="skills-list">
+                                    <li><i class="fas fa-check-circle"></i> AutoCAD (2D & 3D Drafting)</li>
+                                    <li><i class="fas fa-check-circle"></i> Web Development</li>
+                                    <li><i class="fas fa-check-circle"></i> Creative Design</li>
+                                </ul>
+                            </div>
+                            
+                            <!-- Customer Service -->
+                            <div class="skill-card">
+                                <div class="skill-header">
+                                    <i class="fas fa-headset"></i>
+                                    <h3>Customer Service</h3>
+                                </div>
+                                <ul class="skills-list">
+                                    <li><i class="fas fa-check-circle"></i> Customer Service Representative</li>
+                                    <li><i class="fas fa-check-circle"></i> Email Support</li>
+                                    <li><i class="fas fa-check-circle"></i> Chat Support</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Experience Tab -->
+                    <div class="tab-contents" id="experience">
+                        <div class="experience-timeline">
+                            <div class="experience-item">
+                                <div class="exp-icon">
+                                    <i class="fas fa-map-marked-alt"></i>
+                                </div>
+                                <div class="exp-content">
+                                    <h3>Digital Mapping Specialist</h3>
+                                    <ul class="skills-list">
+                                        <li><i class="fas fa-check-circle"></i> I trace buildings and pavements from aerial images, tagging each as house, building, or pavement.</li>
+                                        <li><i class="fas fa-check-circle"></i> I digitize map features from satellite photos, marking indicators for structures and surfaces.</li>
+                                        <li><i class="fas fa-check-circle"></i> I outline houses and roads from imagery, assigning classification labels to every traced object.
+
+</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                            <div class="experience-item">
+                                <div class="exp-icon">
+                                    <i class="fas fa-building"></i>
+                                </div>
+                                <div class="exp-content">
+                                    <h3>Real Estate Lead Generation</h3>
+                                    <ul class="skills-list">
+                                        <li><i class="fas fa-check-circle"></i> Researched potential clients using online platforms, ensuring a consistent pipeline of qualified leads</li>
+                                        <li><i class="fas fa-check-circle"></i> Compiled and verified prospect information, improving the accuracy of lead databases</li>
+                                        <li><i class="fas fa-check-circle"></i> Updated CRM records and lead lists, ensuring organized and accurate customer information</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                            <div class="experience-item">
+                                <div class="exp-icon">
+                                    <i class="fas fa-home"></i>
+                                </div>
+                                <div class="exp-content">
+                                    <h3>Real Estate VA</h3>
+                                    <ul class="skills-list">
+                                        <li><i class="fas fa-check-circle"></i> Designed PowerPoint presentations for property listings and reports, improving presentation quality</li>
+                                        <li><i class="fas fa-check-circle"></i> Created land layout plans using AutoCAD, ensuring accurate technical drawings</li>
+                                        <li><i class="fas fa-check-circle"></i> Organized property documents and project files, improving document management and accessibility</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                            <div class="experience-item">
+                                <div class="exp-icon">
+                                    <i class="fas fa-calculator"></i>
+                                </div>
+                                <div class="exp-content">
+                                    <h3>Tax Analyst</h3>
+                                    <ul class="skills-list">
+                                        <li><i class="fas fa-check-circle"></i> Managed tax-related documents and client records, ensuring accurate and organized financial information</li>
+                                        <li><i class="fas fa-check-circle"></i> Prepared supporting tax documents and verified client data, ensuring complete and error-free submissions</li>
+                                        <li><i class="fas fa-check-circle"></i> Maintained digital filing systems and financial records, improving document accessibility and workflow efficiency</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                            <div class="experience-item">
+                                <div class="exp-icon">
+                                    <i class="fas fa-cube"></i>
+                                </div>
+                                <div class="exp-content">
+                                    <h3>Virtual Assistant - AutoCAD</h3>
+                                    <ul class="skills-list">
+                                        <li><i class="fas fa-check-circle"></i> Created 2D and 3D technical drawings based on project specifications and sketches</li>
+                                        <li><i class="fas fa-check-circle"></i> Converted hand-drawn sketches into AutoCAD layouts, improving drafting accuracy</li>
+                                        <li><i class="fas fa-check-circle"></i> Organized CAD files and revised technical drawings, ensuring efficient document management</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                            <div class="experience-item">
+                                <div class="exp-icon">
+                                    <i class="fas fa-code"></i>
+                                </div>
+                                <div class="exp-content">
+                                    <h3>Web Developer & Technical Support - Intern</h3>
+                                    <ul class="skills-list">
+                                        <li><i class="fas fa-check-circle"></i> Developed a web-based Ticketing System for the municipal office</li>
+                                        <li><i class="fas fa-check-circle"></i> Troubleshot hardware, software, and network issues, ensuring reliable system performance</li>
+                                        <li><i class="fas fa-check-circle"></i> Provided technical support to municipal staff by resolving IT-related issues</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Education Tab -->
+                    <div class="tab-contents" id="education">
+                        <div class="education-timeline">
+                            <div class="education-item">
+                                <div class="edu-icon">
+                                    <i class="fas fa-university"></i>
+                                </div>
+                                <div class="edu-content">
+                                    <h3>Colegio De Montalban</h3>
+                                    <p class="edu-degree">Bachelor of Science in Computer Engineering</p>
+                                    <div class="edu-badges">
+                                        <span class="edu-badge cum-laude">Cum Laude</span>
+                                        <span class="edu-badge research">Research</span>
+                                    </div>
+                                    <p class="edu-desc">Co-authored the study "GPS and LoRa based Patrol Car Tracking with Dashboard monitoring and Role-Based Access"</p>
+                                </div>
+                            </div>
+                            
+                            <div class="education-item">
+                                <div class="edu-icon">
+                                    <i class="fas fa-school"></i>
+                                </div>
+                                <div class="edu-content">
+                                    <h3>Kasiglahan Village Senior High School</h3>
+                                    <p class="edu-degree">Senior High School</p>
+                                    <div class="edu-badges">
+                                        <span class="edu-badge honor">With High Honor</span>
+                                        <span class="edu-badge leader">Student Leader</span>
+                                    </div>
+                                    <p class="edu-desc">Student Leader (SSG) • Yes-O Officer</p>
+                                </div>
+                            </div>
+                            
+                            <div class="education-item">
+                                <div class="edu-icon">
+                                    <i class="fas fa-school"></i>
+                                </div>
+                                <div class="edu-content">
+                                    <h3>Montalban Heights National High School</h3>
+                                    <p class="edu-degree">High School</p>
+                                    <div class="edu-badges">
+                                        <span class="edu-badge honor">With High Honor</span>
+                                        <span class="edu-badge leader">Student Leader</span>
+                                    </div>
+                                    <p class="edu-desc">Student Leader (SSG)</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Call to Action -->
+                <div class="about-cta">
+                    <a href="#portfolio" class="btn-about">
+                        View My Work <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="#contact" class="btn-about secondary">
+                        Let's Connect <i class="fas fa-paper-plane"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Services -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-cube"></i>
+                <h2>AutoCAD Drafting</h2>
+                <p>2D & 3D Design & Modeling</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Development</h2>
+                <p>Website Building & Development</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-database"></i>
+                <h2>Database Management</h2>
+                <p>Design, Management & Optimization</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-users"></i>
+                <h2>Lead Generation</h2>
+                <p>Prospect Research & Lead Generation</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-gear"></i>
+                <h2>CRM Management</h2>
+                <p>Setup, Maintenance & Organization</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-file-powerpoint"></i>
+                <h2>PowerPoint Presentations</h2>
+                <p>Document Design & Presentations</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-headset"></i>
+                <h2>Virtual Assistance</h2>
+                <p>Administrative & Virtual Support</p>
+            </div> 
+        </div>
+    </div>
+</div>
+
+<!-- Tools & Technologies Section -->
+<section id="tools">
+    <div class="container">
+        <h1 class="sub-title">Tools <span>I Use</span></h1>
+        <p class="section-desc">Technologies and platforms I work with to deliver exceptional results</p>
+        
+        <div class="tools-grid">
+            <!-- Category 1: General VA & Graphics Editing -->
+            <div class="tools-category">
+                <div class="category-header">
+                    <i class="fas fa-paint-brush"></i>
+                    <h3>General Virtual Assistant &amp; Graphics Editing</h3>
+                </div>
+                <div class="tools-list">
+                    <span class="tool-tag">Microsoft Copilot</span>
+                    <span class="tool-tag">Google Drive</span>
+                    <span class="tool-tag">Gmail</span>
+                    <span class="tool-tag">Google Calendar</span>
+                    <span class="tool-tag">Google Docs</span>
+                    <span class="tool-tag">Google Sheets</span>
+                    <span class="tool-tag">Microsoft PowerPoint</span>
+                    <span class="tool-tag">Zoom</span>
+                    <span class="tool-tag">CapCut</span>
+                    <span class="tool-tag">AutoCAD</span>
+                    <span class="tool-tag">Visual Studio Code</span>
+                    <span class="tool-tag">Adobe Photoshop</span>
+                    <span class="tool-tag">Gamma AI</span>
+                </div>
+            </div>
+
+            <!-- Category 2: Customer Service & Project Management -->
+            <div class="tools-category">
+                <div class="category-header">
+                    <i class="fas fa-headset"></i>
+                    <h3>Customer Service &amp; Project Management</h3>
+                </div>
+                <div class="tools-list">
+                    <span class="tool-tag">DataFlik</span>
+                    <span class="tool-tag">ClickUp</span>
+                    <span class="tool-tag">Real Estate Property Search</span>
+                    <span class="tool-tag">Slack</span>
+                    <span class="tool-tag">Meta Business Suite</span>
+                    <span class="tool-tag">ChatGPT</span>
+                    <span class="tool-tag">Typeform</span>
+                    <span class="tool-tag">Readymode</span>
+                    <span class="tool-tag">DeepSeek</span>
+                </div>
+                <div class="tools-list" style="margin-top: 8px;">
+                    <span class="tool-tag">Probate Leads List</span>
+                    <span class="tool-tag">Pre-Probate</span>
+                    <span class="tool-tag">Probate</span>
+                    <span class="tool-tag">Inheritance</span>
+                    <span class="tool-tag">Divorce</span>
+                    <span class="tool-tag">Foreclosure</span>
+                </div>
+            </div>
+
+            <!-- Category 3: CRM & Lead Generation -->
+            <div class="tools-category">
+                <div class="category-header">
+                    <i class="fas fa-users"></i>
+                    <h3>CRM &amp; Lead Generation</h3>
+                </div>
+                <div class="tools-list">
+                    <span class="tool-tag">RESimpli</span>
+                    <span class="tool-tag">Salesforce</span>
+                    <span class="tool-tag">HighLevel (GoHighLevel)</span>
+                    <span class="tool-tag">Apollo.io</span>
+                    <span class="tool-tag">HubSpot</span>
+                    <span class="tool-tag">LinkedIn Sales Navigator</span>
+                    <span class="tool-tag">Lemlist</span>
+                    <span class="tool-tag">Mailchimp</span>
+                    <span class="tool-tag">Instantly.ai</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Portfolio Section -->
+<section id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Works</h1>
+        <p class="section-desc">Click on any service to see my works</p>
+        
+        <div class="portfolio-wrapper">
+            <div class="portfolio-slider">
+                
+                <!-- Card 1: Digital Mapping Specialist -->
+                <div class="portfolio-card">
+                    <input type="checkbox" id="mapping" class="card-toggle">
+                    <label for="mapping" class="card-front">
+                        <div class="card-icon">
+                            <i class="fa-solid fa-map-location-dot"></i>
+                        </div>
+                        <h3>Digital Mapping Specialist</h3>
+                        <span class="click-hint">Click to view works →</span>
+                    </label>
+                    <div class="card-works">
+                        <label for="mapping" class="close-btn">✕</label>
+                        <h4>My Mapping Projects</h4>
+                        <div class="work-items">
+                            <div class="work-item">
+                                <label for="modal-map1" class="work-label">
+                                    <img src="images/work11.png" alt="Project 1" class="work-icon">
+                                    <span>Mapping Project 1</span>
+                                </label>
+                            </div>
+                            <div class="work-item">
+                                <label for="modal-map2" class="work-label">
+                                    <img src="images/2.png" alt="Project 2" class="work-icon">
+                                    <span>Mapping Project 2</span>
+                                </label>
+                            </div>
+                            <div class="work-item">
+                                <label for="modal-map3" class="work-label">
+                                    <img src="images/3.png" alt="Project 3" class="work-icon">
+                                    <span>Mapping Project 3</span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2: Lead Generation -->
+                <div class="portfolio-card">
+                    <input type="checkbox" id="lead" class="card-toggle">
+                    <label for="lead" class="card-front">
+                        <div class="card-icon">
+                            <i class="fa-solid fa-users"></i>
+                        </div>
+                        <h3>Lead Generation</h3>
+                        <span class="click-hint">Click to view works →</span>
+                    </label>
+                    <div class="card-works">
+                        <label for="lead" class="close-btn">✕</label>
+                        <h4>My Lead Generation Projects</h4>
+                        <div class="work-items">
+                            <div class="work-item">
+                                <label for="modal-lead1" class="work-label">
+                                    <img src="images/41.png" alt="Project 1" class="work-icon">
+                                    <span>Lead Project 1</span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3: Homeowners Lead Tracker -->
+                <div class="portfolio-card">
+                    <input type="checkbox" id="tracker" class="card-toggle">
+                    <label for="tracker" class="card-front">
+                        <div class="card-icon">
+                            <i class="fa-solid fa-house-chimney"></i>
+                        </div>
+                        <h3>Homeowners Lead Tracker</h3>
+                        <span class="click-hint">Click to view works →</span>
+                    </label>
+                    <div class="card-works">
+                        <label for="tracker" class="close-btn">✕</label>
+                        <h4>My Tracker Projects</h4>
+                        <div class="work-items">
+                            <div class="work-item">
+                                <label for="modal-track1" class="work-label">
+                                    <img src="images/31.png" alt="Project 1" class="work-icon">
+                                    <span>Tracker Project 1</span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 4: Real Estate VA -->
+                <div class="portfolio-card">
+                    <input type="checkbox" id="va" class="card-toggle">
+                    <label for="va" class="card-front">
+                        <div class="card-icon">
+                            <i class="fa-solid fa-handshake"></i>
+                        </div>
+                        <h3>Real Estate VA</h3>
+                        <span class="click-hint">Click to view works →</span>
+                    </label>
+                    <div class="card-works">
+                        <label for="va" class="close-btn">✕</label>
+                        <h4>My Real Estate Projects</h4>
+                        <div class="work-items">
+                            <div class="work-item">
+                                <label for="modal-va1" class="work-label">
+                                    <img src="images/w1.png" alt="Project 1" class="work-icon">
+                                    <span>Real Estate Project</span>
+                                </label>
+                            </div>
+                            <div class="work-item">
+                                <label for="modal-va2" class="work-label">
+                                    <img src="images/w2.png" alt="Project 2" class="work-icon">
+                                    <span>Real Estate Project</span>
+                                </label>
+                            </div>
+                            <div class="work-item">
+                                <label for="modal-va3" class="work-label">
+                                    <img src="images/w3.png" alt="Project 3" class="work-icon">
+                                    <span>Real Estate Project</span>
+                                </label>
+                            </div>
+                            <div class="work-item">
+                                <label for="modal-va4" class="work-label">
+                                    <img src="images/w4.png" alt="Project 4" class="work-icon">
+                                    <span>Real Estate Project</span>
+                                </label>
+                            </div>
+                            <div class="work-item">
+                                <label for="modal-va5" class="work-label">
+                                    <img src="images/w5.png" alt="Project 5" class="work-icon">
+                                    <span>Real Estate Project</span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 5: AutoCAD -->
+<div class="portfolio-card">
+    <input type="checkbox" id="autocad" class="card-toggle">
+    <label for="autocad" class="card-front">
+        <div class="card-icon">
+            <i class="fa-solid fa-cube"></i>
+        </div>
+        <h3>AutoCAD Specialist</h3>
+        <span class="click-hint">Click to view works →</span>
+    </label>
+    <div class="card-works">
+        <label for="autocad" class="close-btn">✕</label>
+        <h4>My AutoCAD Projects</h4>
+        <div class="work-items">
+            <div class="work-item">
+                <label for="modal-cad1" class="work-label">
+                    <img src="images/Nov3.png" alt="Project 1" class="work-icon">
+                    <span>AutoCAD Project 1</span>
+                </label>
+            </div>
+            <div class="work-item">
+                <label for="modal-cad2" class="work-label">
+                    <img src="images/Nov1.jpg" alt="Project 2" class="work-icon">
+                    <span>AutoCAD Project 2</span>
+                </label>
+            </div>
+            <div class="work-item">
+                <label for="modal-cad3" class="work-label">
+                    <img src="images/Nov2.jpg" alt="Project 3" class="work-icon">
+                    <span>AutoCAD Project 3</span>
+                </label>
+            </div>
+            <div class="work-item">
+                <label for="modal-cad4" class="work-label">
+                    <img src="images/work1.png" alt="Project 4" class="work-icon">
+                    <span>AutoCAD Project 4</span>
+                </label>
+            </div>
+            <div class="work-item">
+                <label for="modal-cad5" class="work-label">
+                    <img src="images/work2.png" alt="Project 5" class="work-icon">
+                    <span>AutoCAD Project 5</span>
+                </label>
+            </div>
+            <div class="work-item">
+                <label for="modal-cad6" class="work-label">
+                    <img src="images/work3.png" alt="Project 6" class="work-icon">
+                    <span>AutoCAD Project 6</span>
+                </label>
+            </div>
+            <div class="work-item">
+                <label for="modal-cad7" class="work-label">
+                    <img src="images/work22.png" alt="Project 7" class="work-icon">
+                    <span>AutoCAD Project 7</span>
+                </label>
+            </div>
+            <div class="work-item">
+                <label for="modal-cad8" class="work-label">
+                    <img src="images/work33.png" alt="Project 8" class="work-icon">
+                    <span>AutoCAD Project 8</span>
+                </label>
+            </div>
+        </div>
+    </div>
+</div>
+
+                <!-- Card 6: Web Developer -->
+                <div class="portfolio-card">
+                    <input type="checkbox" id="web" class="card-toggle">
+                    <label for="web" class="card-front">
+                        <div class="card-icon">
+                            <i class="fa-solid fa-code"></i>
+                        </div>
+                        <h3>Web Developer</h3>
+                        <span class="click-hint">Click to view works →</span>
+                    </label>
+                    <div class="card-works">
+                        <label for="web" class="close-btn">✕</label>
+                        <h4>My Web Projects</h4>
+                        <div class="work-items">
+                            <div class="work-item">
+                                <label for="modal-web1" class="work-label">
+                                    <img src="images/21.png" alt="Project 1" class="work-icon">
+                                    <span>Web Project 1</span>
+                                </label>
+                            </div>
+                            <div class="work-item">
+                                <label for="modal-web2" class="work-label">
+                                    <img src="images/22.png" alt="Project 2" class="work-icon">
+                                    <span>Web Project 2</span>
+                                </label>
+                            </div>
+                            <div class="work-item">
+                                <label for="modal-web3" class="work-label">
+                                    <img src="images/23.png" alt="Project 3" class="work-icon">
+                                    <span>Web Project 3</span>
+                                </label>
+                            </div>
+                            <div class="work-item">
+                                <label for="modal-web4" class="work-label">
+                                    <img src="images/24.png" alt="Project 4" class="work-icon">
+                                    <span>Web Project 4</span>
+                                </label>
+                            </div>
+                            <div class="work-item">
+                                <label for="modal-web5" class="work-label">
+                                    <img src="images/25.png" alt="Project 5" class="work-icon">
+                                    <span>Web Project 5</span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ===== DUPLICATE CARDS FOR SEAMLESS LOOP ===== -->
+
+                <!-- Card 1 Duplicate: Digital Mapping Specialist -->
+                <div class="portfolio-card">
+                    <input type="checkbox" id="mapping2" class="card-toggle">
+                    <label for="mapping2" class="card-front">
+                        <div class="card-icon">
+                            <i class="fa-solid fa-map-location-dot"></i>
+                        </div>
+                        <h3>Digital Mapping Specialist</h3>
+                        <span class="click-hint">Click to view works →</span>
+                    </label>
+                    <div class="card-works">
+                        <label for="mapping2" class="close-btn">✕</label>
+                        <h4>My Mapping Projects</h4>
+                        <div class="work-items">
+                            <div class="work-item">
+                                <label for="modal-map1" class="work-label">
+                                    <img src="images/work11.png" alt="Project 1" class="work-icon">
+                                    <span>Mapping Project 1</span>
+                                </label>
+                            </div>
+                            <div class="work-item">
+                                <label for="modal-map2" class="work-label">
+                                    <img src="images/2.png" alt="Project 2" class="work-icon">
+                                    <span>Mapping Project 2</span>
+                                </label>
+                            </div>
+                            <div class="work-item">
+                                <label for="modal-map3" class="work-label">
+                                    <img src="images/3.png" alt="Project 3" class="work-icon">
+                                    <span>Mapping Project 3</span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2 Duplicate: Lead Generation -->
+                <div class="portfolio-card">
+                    <input type="checkbox" id="lead2" class="card-toggle">
+                    <label for="lead2" class="card-front">
+                        <div class="card-icon">
+                            <i class="fa-solid fa-users"></i>
+                        </div>
+                        <h3>Lead Generation</h3>
+                        <span class="click-hint">Click to view works →</span>
+                    </label>
+                    <div class="card-works">
+                        <label for="lead2" class="close-btn">✕</label>
+                        <h4>My Lead Generation Projects</h4>
+                        <div class="work-items">
+                            <div class="work-item">
+                                <label for="modal-lead1" class="work-label">
+                                    <img src="images/41.png" alt="Project 1" class="work-icon">
+                                    <span>Lead Project 1</span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3 Duplicate: Homeowners Lead Tracker -->
+                <div class="portfolio-card">
+                    <input type="checkbox" id="tracker2" class="card-toggle">
+                    <label for="tracker2" class="card-front">
+                        <div class="card-icon">
+                            <i class="fa-solid fa-house-chimney"></i>
+                        </div>
+                        <h3>Homeowners Lead Tracker</h3>
+                        <span class="click-hint">Click to view works →</span>
+                    </label>
+                    <div class="card-works">
+                        <label for="tracker2" class="close-btn">✕</label>
+                        <h4>My Tracker Projects</h4>
+                        <div class="work-items">
+                            <div class="work-item">
+                                <label for="modal-track1" class="work-label">
+                                    <img src="images/31.png" alt="Project 1" class="work-icon">
+                                    <span>Tracker Project 1</span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 4 Duplicate: Real Estate VA -->
+                <div class="portfolio-card">
+                    <input type="checkbox" id="va2" class="card-toggle">
+                    <label for="va2" class="card-front">
+                        <div class="card-icon">
+                            <i class="fa-solid fa-handshake"></i>
+                        </div>
+                        <h3>Real Estate VA</h3>
+                        <span class="click-hint">Click to view works →</span>
+                    </label>
+                    <div class="card-works">
+                        <label for="va2" class="close-btn">✕</label>
+                        <h4>My Real Estate Projects</h4>
+                        <div class="work-items">
+                            <div class="work-item">
+                                <label for="modal-va1" class="work-label">
+                                    <img src="images/w1.png" alt="Project 1" class="work-icon">
+                                    <span>Real Estate Project</span>
+                                </label>
+                            </div>
+                            <div class="work-item">
+                                <label for="modal-va2" class="work-label">
+                                    <img src="images/w2.png" alt="Project 2" class="work-icon">
+                                    <span>Real Estate Project</span>
+                                </label>
+                            </div>
+                            <div class="work-item">
+                                <label for="modal-va3" class="work-label">
+                                    <img src="images/w3.png" alt="Project 3" class="work-icon">
+                                    <span>Real Estate Project</span>
+                                </label>
+                            </div>
+                            <div class="work-item">
+                                <label for="modal-va4" class="work-label">
+                                    <img src="images/w4.png" alt="Project 4" class="work-icon">
+                                    <span>Real Estate Project</span>
+                                </label>
+                            </div>
+                            <div class="work-item">
+                                <label for="modal-va5" class="work-label">
+                                    <img src="images/w5.png" alt="Project 5" class="work-icon">
+                                    <span>Real Estate Project</span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+               <!-- Card 5: AutoCAD -->
+<div class="portfolio-card">
+    <input type="checkbox" id="autocad" class="card-toggle">
+    <label for="autocad" class="card-front">
+        <div class="card-icon">
+            <i class="fa-solid fa-cube"></i>
+        </div>
+        <h3>AutoCAD Specialist</h3>
+        <span class="click-hint">Click to view works →</span>
+    </label>
+    <div class="card-works">
+        <label for="autocad" class="close-btn">✕</label>
+        <h4>My AutoCAD Projects</h4>
+        <div class="work-items">
+            <div class="work-item">
+                <label for="modal-cad1" class="work-label">
+                    <img src="images/Nov3.png" alt="Project 1" class="work-icon">
+                    <span>AutoCAD Project 1</span>
+                </label>
+            </div>
+            <div class="work-item">
+                <label for="modal-cad2" class="work-label">
+                    <img src="images/Nov1.jpg" alt="Project 2" class="work-icon">
+                    <span>AutoCAD Project 2</span>
+                </label>
+            </div>
+            <div class="work-item">
+                <label for="modal-cad3" class="work-label">
+                    <img src="images/Nov2.jpg" alt="Project 3" class="work-icon">
+                    <span>AutoCAD Project 3</span>
+                </label>
+            </div>
+            <div class="work-item">
+                <label for="modal-cad4" class="work-label">
+                    <img src="images/work1.png" alt="Project 4" class="work-icon">
+                    <span>AutoCAD Project 4</span>
+                </label>
+            </div>
+            <div class="work-item">
+                <label for="modal-cad5" class="work-label">
+                    <img src="images/work2.png" alt="Project 5" class="work-icon">
+                    <span>AutoCAD Project 5</span>
+                </label>
+            </div>
+            <div class="work-item">
+                <label for="modal-cad6" class="work-label">
+                    <img src="images/work3.png" alt="Project 6" class="work-icon">
+                    <span>AutoCAD Project 6</span>
+                </label>
+            </div>
+            <div class="work-item">
+                <label for="modal-cad7" class="work-label">
+                    <img src="images/work22.png" alt="Project 7" class="work-icon">
+                    <span>AutoCAD Project 7</span>
+                </label>
+            </div>
+            <div class="work-item">
+                <label for="modal-cad8" class="work-label">
+                    <img src="images/work33.png" alt="Project 8" class="work-icon">
+                    <span>AutoCAD Project 8</span>
+                </label>
+            </div>
+        </div>
+    </div>
+</div>
+
+                <!-- Card 6 Duplicate: Web Developer -->
+                <div class="portfolio-card">
+                    <input type="checkbox" id="web2" class="card-toggle">
+                    <label for="web2" class="card-front">
+                        <div class="card-icon">
+                            <i class="fa-solid fa-code"></i>
+                        </div>
+                        <h3>Web Developer</h3>
+                        <span class="click-hint">Click to view works →</span>
+                    </label>
+                    <div class="card-works">
+                        <label for="web2" class="close-btn">✕</label>
+                        <h4>My Web Projects</h4>
+                        <div class="work-items">
+                            <div class="work-item">
+                                <label for="modal-web1" class="work-label">
+                                    <img src="images/21.png" alt="Project 1" class="work-icon">
+                                    <span>Web Project 1</span>
+                                </label>
+                            </div>
+                            <div class="work-item">
+                                <label for="modal-web2" class="work-label">
+                                    <img src="images/22.png" alt="Project 2" class="work-icon">
+                                    <span>Web Project 2</span>
+                                </label>
+                            </div>
+                            <div class="work-item">
+                                <label for="modal-web3" class="work-label">
+                                    <img src="images/23.png" alt="Project 3" class="work-icon">
+                                    <span>Web Project 3</span>
+                                </label>
+                            </div>
+                            <div class="work-item">
+                                <label for="modal-web4" class="work-label">
+                                    <img src="images/24.png" alt="Project 4" class="work-icon">
+                                    <span>Web Project 4</span>
+                                </label>
+                            </div>
+                            <div class="work-item">
+                                <label for="modal-web5" class="work-label">
+                                    <img src="images/25.png" alt="Project 5" class="work-icon">
+                                    <span>Web Project 5</span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== MODALS ===== -->
+<!-- Modal 1: Mapping Project 1 -->
+<input type="checkbox" id="modal-map1" class="modal-toggle">
+<div class="work-modal">
+    <div class="modal-overlay">
+        <label for="modal-map1" class="modal-close">✕</label>
+        <div class="modal-box">
+            <img src="images/work11.png" alt="Mapping Project" class="modal-image">
+            <div class="modal-category">Digital Mapping</div>
+            <h3 class="modal-title">Mapping Project 1</h3>
+        </div>
+    </div>
+</div>
+
+<!-- Modal 2: Mapping Project 2 -->
+<input type="checkbox" id="modal-map2" class="modal-toggle">
+<div class="work-modal">
+    <div class="modal-overlay">
+        <label for="modal-map2" class="modal-close">✕</label>
+        <div class="modal-box">
+            <img src="images/2.png" alt="Mapping Project" class="modal-image">
+            <div class="modal-category">Digital Mapping</div>
+            <h3 class="modal-title">Mapping Project 2</h3>
+        </div>
+    </div>
+</div>
+
+<!-- Modal 3: Mapping Project 3 -->
+<input type="checkbox" id="modal-map3" class="modal-toggle">
+<div class="work-modal">
+    <div class="modal-overlay">
+        <label for="modal-map3" class="modal-close">✕</label>
+        <div class="modal-box">
+            <img src="images/3.png" alt="Mapping Project" class="modal-image">
+            <div class="modal-category">Digital Mapping</div>
+            <h3 class="modal-title">Mapping Project 3</h3>
+        </div>
+    </div>
+</div>
+
+<!-- Modal 4: Lead Project -->
+<input type="checkbox" id="modal-lead1" class="modal-toggle">
+<div class="work-modal">
+    <div class="modal-overlay">
+        <label for="modal-lead1" class="modal-close">✕</label>
+        <div class="modal-box">
+            <img src="images/41.png" alt="Lead Project" class="modal-image">
+            <div class="modal-category">Lead Generation</div>
+            <h3 class="modal-title">Lead Project 1</h3>
+        </div>
+    </div>
+</div>
+
+<!-- Modal 5: Tracker Project -->
+<input type="checkbox" id="modal-track1" class="modal-toggle">
+<div class="work-modal">
+    <div class="modal-overlay">
+        <label for="modal-track1" class="modal-close">✕</label>
+        <div class="modal-box">
+            <img src="images/31.png" alt="Tracker Project" class="modal-image">
+            <div class="modal-category">Lead Tracker</div>
+            <h3 class="modal-title">Tracker Project 1</h3>
+        </div>
+    </div>
+</div>
+
+<!-- Modal 6-10: Real Estate Projects -->
+<input type="checkbox" id="modal-va1" class="modal-toggle">
+<div class="work-modal">
+    <div class="modal-overlay">
+        <label for="modal-va1" class="modal-close">✕</label>
+        <div class="modal-box">
+            <img src="images/w1.png" alt="Real Estate Project" class="modal-image">
+            <div class="modal-category">Real Estate</div>
+            <h3 class="modal-title">Real Estate Project</h3>
+        </div>
+    </div>
+</div>
+
+<input type="checkbox" id="modal-va2" class="modal-toggle">
+<div class="work-modal">
+    <div class="modal-overlay">
+        <label for="modal-va2" class="modal-close">✕</label>
+        <div class="modal-box">
+            <img src="images/w2.png" alt="Real Estate Project" class="modal-image">
+            <div class="modal-category">Real Estate</div>
+            <h3 class="modal-title">Real Estate Project</h3>
+        </div>
+    </div>
+</div>
+
+<input type="checkbox" id="modal-va3" class="modal-toggle">
+<div class="work-modal">
+    <div class="modal-overlay">
+        <label for="modal-va3" class="modal-close">✕</label>
+        <div class="modal-box">
+            <img src="images/w3.png" alt="Real Estate Project" class="modal-image">
+            <div class="modal-category">Real Estate</div>
+            <h3 class="modal-title">Real Estate Project</h3>
+        </div>
+    </div>
+</div>
+
+<input type="checkbox" id="modal-va4" class="modal-toggle">
+<div class="work-modal">
+    <div class="modal-overlay">
+        <label for="modal-va4" class="modal-close">✕</label>
+        <div class="modal-box">
+            <img src="images/w4.png" alt="Real Estate Project" class="modal-image">
+            <div class="modal-category">Real Estate</div>
+            <h3 class="modal-title">Real Estate Project</h3>
+        </div>
+    </div>
+</div>
+
+<input type="checkbox" id="modal-va5" class="modal-toggle">
+<div class="work-modal">
+    <div class="modal-overlay">
+        <label for="modal-va5" class="modal-close">✕</label>
+        <div class="modal-box">
+            <img src="images/w5.png" alt="Real Estate Project" class="modal-image">
+            <div class="modal-category">Real Estate</div>
+            <h3 class="modal-title">Real Estate Project</h3>
+        </div>
+    </div>
+</div>
+
+<!-- Modal 1: AutoCAD Project 1 (Nov3.png) -->
+<input type="checkbox" id="modal-cad1" class="modal-toggle">
+<div class="work-modal">
+    <div class="modal-overlay">
+        <label for="modal-cad1" class="modal-close">✕</label>
+        <div class="modal-box">
+            <img src="images/Nov3.png" alt="AutoCAD Project" class="modal-image">
+            <div class="modal-category">AutoCAD</div>
+            <h3 class="modal-title">AutoCAD Project 1</h3>
+        </div>
+    </div>
+</div>
+
+<!-- Modal 2: AutoCAD Project 2 (Nov1.png) -->
+<input type="checkbox" id="modal-cad2" class="modal-toggle">
+<div class="work-modal">
+    <div class="modal-overlay">
+        <label for="modal-cad2" class="modal-close">✕</label>
+        <div class="modal-box">
+            <img src="images/Nov1.jpg" alt="AutoCAD Project" class="modal-image">
+            <div class="modal-category">AutoCAD</div>
+            <h3 class="modal-title">AutoCAD Project 2</h3>
+        </div>
+    </div>
+</div>
+
+<!-- Modal 3: AutoCAD Project 3 (Nov2.png) -->
+<input type="checkbox" id="modal-cad3" class="modal-toggle">
+<div class="work-modal">
+    <div class="modal-overlay">
+        <label for="modal-cad3" class="modal-close">✕</label>
+        <div class="modal-box">
+            <img src="images/Nov2.jpg" alt="AutoCAD Project" class="modal-image">
+            <div class="modal-category">AutoCAD</div>
+            <h3 class="modal-title">AutoCAD Project 3</h3>
+        </div>
+    </div>
+</div>
+
+<!-- Modal 4: AutoCAD Project 4 (work1.png) -->
+<input type="checkbox" id="modal-cad4" class="modal-toggle">
+<div class="work-modal">
+    <div class="modal-overlay">
+        <label for="modal-cad4" class="modal-close">✕</label>
+        <div class="modal-box">
+            <img src="images/work1.png" alt="AutoCAD Project" class="modal-image">
+            <div class="modal-category">AutoCAD</div>
+            <h3 class="modal-title">AutoCAD Project 4</h3>
+        </div>
+    </div>
+</div>
+
+<!-- Modal 5: AutoCAD Project 5 (work2.png) -->
+<input type="checkbox" id="modal-cad5" class="modal-toggle">
+<div class="work-modal">
+    <div class="modal-overlay">
+        <label for="modal-cad5" class="modal-close">✕</label>
+        <div class="modal-box">
+            <img src="images/work2.png" alt="AutoCAD Project" class="modal-image">
+            <div class="modal-category">AutoCAD</div>
+            <h3 class="modal-title">AutoCAD Project 5</h3>
+        </div>
+    </div>
+</div>
+
+<!-- Modal 6: AutoCAD Project 6 (work3.png) -->
+<input type="checkbox" id="modal-cad6" class="modal-toggle">
+<div class="work-modal">
+    <div class="modal-overlay">
+        <label for="modal-cad6" class="modal-close">✕</label>
+        <div class="modal-box">
+            <img src="images/work3.png" alt="AutoCAD Project" class="modal-image">
+            <div class="modal-category">AutoCAD</div>
+            <h3 class="modal-title">AutoCAD Project 6</h3>
+        </div>
+    </div>
+</div>
+
+<!-- Modal 7: AutoCAD Project 7 (work22.png) -->
+<input type="checkbox" id="modal-cad7" class="modal-toggle">
+<div class="work-modal">
+    <div class="modal-overlay">
+        <label for="modal-cad7" class="modal-close">✕</label>
+        <div class="modal-box">
+            <img src="images/work22.png" alt="AutoCAD Project" class="modal-image">
+            <div class="modal-category">AutoCAD</div>
+            <h3 class="modal-title">AutoCAD Project 7</h3>
+        </div>
+    </div>
+</div>
+
+<!-- Modal 8: AutoCAD Project 8 (work33.png) -->
+<input type="checkbox" id="modal-cad8" class="modal-toggle">
+<div class="work-modal">
+    <div class="modal-overlay">
+        <label for="modal-cad8" class="modal-close">✕</label>
+        <div class="modal-box">
+            <img src="images/work33.png" alt="AutoCAD Project" class="modal-image">
+            <div class="modal-category">AutoCAD</div>
+            <h3 class="modal-title">AutoCAD Project 8</h3>
+        </div>
+    </div>
+</div>
+
+<!-- Modal 16-20: Web Projects -->
+<input type="checkbox" id="modal-web1" class="modal-toggle">
+<div class="work-modal">
+    <div class="modal-overlay">
+        <label for="modal-web1" class="modal-close">✕</label>
+        <div class="modal-box">
+            <img src="images/21.png" alt="Web Project" class="modal-image">
+            <div class="modal-category">Web Development</div>
+            <h3 class="modal-title">Web Project 1</h3>
+        </div>
+    </div>
+</div>
+
+<input type="checkbox" id="modal-web2" class="modal-toggle">
+<div class="work-modal">
+    <div class="modal-overlay">
+        <label for="modal-web2" class="modal-close">✕</label>
+        <div class="modal-box">
+            <img src="images/22.png" alt="Web Project" class="modal-image">
+            <div class="modal-category">Web Development</div>
+            <h3 class="modal-title">Web Project 2</h3>
+        </div>
+    </div>
+</div>
+
+<input type="checkbox" id="modal-web3" class="modal-toggle">
+<div class="work-modal">
+    <div class="modal-overlay">
+        <label for="modal-web3" class="modal-close">✕</label>
+        <div class="modal-box">
+            <img src="images/23.png" alt="Web Project" class="modal-image">
+            <div class="modal-category">Web Development</div>
+            <h3 class="modal-title">Web Project 3</h3>
+        </div>
+    </div>
+</div>
+
+<input type="checkbox" id="modal-web4" class="modal-toggle">
+<div class="work-modal">
+    <div class="modal-overlay">
+        <label for="modal-web4" class="modal-close">✕</label>
+        <div class="modal-box">
+            <img src="images/24.png" alt="Web Project" class="modal-image">
+            <div class="modal-category">Web Development</div>
+            <h3 class="modal-title">Web Project 4</h3>
+        </div>
+    </div>
+</div>
+
+<input type="checkbox" id="modal-web5" class="modal-toggle">
+<div class="work-modal">
+    <div class="modal-overlay">
+        <label for="modal-web5" class="modal-close">✕</label>
+        <div class="modal-box">
+            <img src="images/25.png" alt="Web Project" class="modal-image">
+            <div class="modal-category">Web Development</div>
+            <h3 class="modal-title">Web Project 5</h3>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- Contact Section -->
+<section id="contact">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-tag">Get In Touch</span>
+            <h1 class="sub-title">Let's <span>Connect</span></h1>
+            <p class="section-desc">Have a project in mind? Let's work together and create something amazing.</p>
+        </div>
+        
+        <div class="contact-wrapper">
+            <!-- Left Column: Contact Info -->
+            <div class="contact-left">
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <p>Feel free to reach out anytime. I'm always open to new opportunities and collaborations.</p>
+                    
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fa-regular fa-envelope"></i>
+                        </div>
+                        <div class="info-text">
+                            <span>Email</span>
+                            <a href="mailto:boragay.johnlestera@gmail.com">boragay.johnlestera@gmail.com</a>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fa-solid fa-phone"></i>
+                        </div>
+                        <div class="info-text">
+                            <span>Phone</span>
+                            <a href="tel:+63 947 365 9428">+63 947 365 9428</a>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                        <div class="info-text">
+                            <span>Location</span>
+                            <p>Philippines</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="social-section">
+                    <h4>Connect with me</h4>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/curly.lster" target="_blank" class="social-link facebook">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                        <a href="https://www.instagram.com/tf_lstr?igsh=cW5pcDB0enY1cjhl" target="_blank" class="social-link instagram">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/john-lester-boragay-91b50337b/" target="_blank" class="social-link linkedin">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://github.com/boragayjohnlestera-svg" target="_blank" class="social-link github">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <a href="images/resume.pdf" download class="btn-download">
+                    <i class="fa-solid fa-download"></i> Download CV
+                </a>
+            </div>
+            
+            <!-- Right Column: Contact Form -->
+            <div class="contact-right">
+                <form id="contact-form" class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <div class="input-wrapper">
+                            <i class="fa-regular fa-user"></i>
+                            <input type="text" id="name" name="Name" placeholder="Enter your name" required>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Your Email</label>
+                        <div class="input-wrapper">
+                            <i class="fa-regular fa-envelope"></i>
+                            <input type="email" id="email" name="Email" placeholder="Enter your email" required>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Your Message</label>
+                        <div class="input-wrapper textarea-wrapper">
+                            <i class="fa-regular fa-comment"></i>
+                            <textarea id="message" name="Message" rows="5" placeholder="Type your message here..." required></textarea>
+                        </div>
+                    </div>
+                    
+                    <button type="submit" class="btn-submit" id="submitBtn">
+                        <span>Send Message</span>
+                        <i class="fa-solid fa-paper-plane"></i>
+                    </button>
+                    
+                    <!-- Status Message -->
+                    <div id="form-status" style="display: none; margin-top: 15px; padding: 12px 20px; border-radius: 10px; text-align: center;"></div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Footer / Copyright -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <p>© 2026 <span>John Lester A. Boragay</span> | Personal Portfolio. All Rights Reserved.</p>
+            <div class="footer-links">
+                <a href="#header">Home</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- ===== JAVASCRIPT ===== -->
+<script>
+    // Tab functionality
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname) {
+        for (tablink of tablinks) {
+            tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+    // ===== CONTACT FORM - Google Sheets =====
+    // YOUR CORRECT URL
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxG3KKhU6DiVicULlpw0j9rqmm94SIlHstvCqemkAr6ZgNzvN_-WHJUiFgJJ61bTNP2/exec';
+    
+    const form = document.getElementById('contact-form');
+    const statusDiv = document.getElementById('form-status');
+    const submitBtn = document.getElementById('submitBtn');
+
+    if (form) {
+        form.addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            submitBtn.innerHTML = '<span>Sending...</span><i class="fa-solid fa-spinner fa-spin"></i>';
+            submitBtn.disabled = true;
+            statusDiv.style.display = 'none';
+            
+            const formData = new FormData(form);
+            
+            fetch(scriptURL, {
+                method: 'POST',
+                body: formData
+            })
+            .then(response => response.json())
+            .then(result => {
+                if (result.success) {
+                    statusDiv.style.display = 'block';
+                    statusDiv.style.background = 'rgba(0, 200, 100, 0.1)';
+                    statusDiv.style.border = '1px solid rgba(0, 200, 100, 0.3)';
+                    statusDiv.style.color = '#00c864';
+                    statusDiv.innerHTML = '✅ Message sent successfully! I\'ll get back to you soon.';
+                    form.reset();
+                } else {
+                    throw new Error(result.message || 'Something went wrong');
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                statusDiv.style.display = 'block';
+                statusDiv.style.background = 'rgba(255, 0, 79, 0.1)';
+                statusDiv.style.border = '1px solid rgba(255, 0, 79, 0.3)';
+                statusDiv.style.color = '#ff004f';
+                statusDiv.innerHTML = '❌ Failed to send message. Please try again or email me directly.';
+            })
+            .finally(() => {
+                submitBtn.innerHTML = '<span>Send Message</span><i class="fa-solid fa-paper-plane"></i>';
+                submitBtn.disabled = false;
+            });
+        });
+    }
+</script>
+
+</body>
+</html>
